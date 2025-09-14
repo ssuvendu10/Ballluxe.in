@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Balluxe — Premium Thailand Jerseys</title>
+  <meta name="description" content="Balluxe — Premium Thailand AAA football jerseys. Affordable. Authentic feel. Shop now." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724; /* deep navy */
+      --muted:#94a3b8;
+      --accent:#ffd166; /* warm gold */
+      --card:#0b1220;
+      --glass: rgba(255,255,255,0.04);
+      --max:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Arial; background:linear-gradient(180deg,#071026 0%, #07182a 100%); color:#e6eef8}
+    .container{max-width:var(--max);margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:54px;height:54px;border-radius:8px;background:linear-gradient(135deg, #111827, var(--accent));display:flex;align-items:center;justify-content:center;font-weight:800;color:#071026}
+    .brand h1{margin:0;font-size:20px;letter-spacing:0.6px}
+    .brand p{margin:0;color:var(--muted);font-size:13px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:14px}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:30px}
+    .hero-left h2{font-size:42px;margin:0 0 12px 0;line-height:1.05}
+    .hero-left p{color:var(--muted);margin:0 0 18px 0}
+    .cta{display:flex;gap:12px}
+    .btn{background:var(--accent);color:#071026;padding:12px 16px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 14px;border-radius:10px;color:var(--muted)}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:18px}
+    .product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+    .product{background:var(--card);padding:12px;border-radius:10px;display:flex;flex-direction:column;gap:10px}
+    .product img{width:100%;height:180px;object-fit:cover;border-radius:8px;background:linear-gradient(90deg,#0b1220,#082036)}
+    .p-title{font-weight:700;font-size:15px}
+    .p-sub{color:var(--muted);font-size:13px}
+    .price-row{display:flex;justify-content:space-between;align-items:center;margin-top:auto}
+    .price{font-weight:800}
+    .small{font-size:12px;color:var(--muted)}
+    footer{margin-top:40px;padding:20px 0;color:var(--muted);text-align:center;font-size:13px}
+    .badge{display:inline-block;padding:6px 8px;border-radius:8px;background:var(--glass);color:var(--muted);font-weight:600}
+    .size-guide{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+    .size-guide span{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:8px;color:var(--muted);font-weight:600}
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr;}
+      .product-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:560px){
+      .product-grid{grid-template-columns:1fr}
+      header{flex-direction:column;align-items:flex-start}
+      nav{margin-top:8px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">B</div>
+        <div>
+          <h1>Balluxe</h1>
+          <p>Premium Thailand AAA Jerseys</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#shop">Shop</a>
+        <a href="#size">Size Guide</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-left">
+        <h2>Premium Thailand AAA jerseys — <span style="color:var(--accent)">₹849</span> onward</h2>
+        <p>Authentic-feel, lightweight fabric, embroidered crests and long-lasting sublimation prints. Start your season in Balluxe.</p>
+        <div class="cta">
+          <button class="btn" onclick="location.href='#shop'">Shop Now</button>
+          <button class="secondary" onclick="openWhatsApp()">Order on WhatsApp</button>
+        </div>
+
+        <div style="margin-top:18px" class="card">
+          <div style="display:flex;gap:12px;align-items:center;justify-content:space-between">
+            <div>
+              <div style="font-weight:700">Why Balluxe?</div>
+              <div class="small">AAA Thailand quality — checked in Kolkata. Fast local delivery & COD.</div>
+            </div>
+            <div class="badge">Limited Stock</div>
+          </div>
+          <div style="margin-top:12px" class="small">Bulk pricing: 10+ jerseys ₹700 each. DM or WhatsApp to negotiate.</div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <div style="font-weight:700">Featured</div>
+          <div style="display:flex;flex-direction:column;gap:10px;margin-top:12px">
+            <div style="display:flex;gap:12px;align-items:center">
+              <div style="width:68px;height:54px;border-radius:8px;background:linear-gradient(90deg,#082036,#0b1220)"></div>
+              <div>
+                <div style="font-weight:700">Real Madrid 24/25</div>
+                <div class="small">AAA — ₹849</div>
+              </div>
+            </div>
+
+            <div style="display:flex;gap:12px;align-items:center">
+              <div style="width:68px;height:54px;border-radius:8px;background:linear-gradient(90deg,#082036,#0b1220)"></div>
+              <div>
+                <div style="font-weight:700">Argentina Home</div>
+                <div class="small">AAA — ₹849</div>
+              </div>
+            </div>
+
+            <div style="display:flex;gap:12px;align-items:center">
+              <div style="width:68px;height:54px;border-radius:8px;background:linear-gradient(90deg,#082036,#0b1220)"></div>
+              <div>
+                <div style="font-weight:700">Barcelona Home</div>
+                <div class="small">AAA — ₹849</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="shop" style="margin-top:30px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h3 style="margin:0">Shop — Popular Jerseys</h3>
+        <div class="small">Free COD in Kolkata • Pan-India Shipping</div>
+      </div>
+
+      <div class="product-grid" style="margin-top:16px">
+        <!-- Replace the image src with your product images. Use 800x800 or 1200x1200 JPG/PNG -->
+        <div class="product">
+          <img src="https://via.placeholder.com/600x600?text=Real+Madrid" alt="Real Madrid Jersey" />
+          <div class="p-title">Real Madrid 24/25</div>
+          <div class="p-sub">AAA Thailand | Sublimation print | Embroidered crest</div>
+          <div class="price-row">
+            <div>
+              <div class="price">₹849</div>
+              <div class="small">COD, UPI</div>
+            </div>
+            <div><button class="btn" onclick="openWhatsApp('Real Madrid 24/25')">Order</button></div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://via.placeholder.com/600x600?text=Barcelona" alt="Barcelona Jersey" />
+          <div class="p-title">Barcelona 24/25</div>
+          <div class="p-sub">AAA Thailand | Slim fit | Durable print</div>
+          <div class="price-row">
+            <div>
+              <div class="price">₹849</div>
+              <div class="small">COD, UPI</div>
+            </div>
+            <div><button class="btn" onclick="openWhatsApp('Barcelona 24/25')">Order</button></div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://via.placeholder.com/600x600?text=Manchester+United" alt="Man Utd Jersey" />
+          <div class="p-title">Manchester United 24/25</div>
+          <div class="p-sub">AAA Thailand | Embroidered badge</div>
+          <div class="price-row">
+            <div>
+              <div class="price">₹849</div>
+              <div class="small">COD, UPI</div>
+            </div>
+            <div><button class="btn" onclick="openWhatsApp('Manchester United 24/25')">Order</button></div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://via.placeholder.com/600x600?text=PSG" alt="PSG Jersey" />
+          <div class="p-title">PSG Home</div>
+          <div class="p-sub">AAA Thailand | Comfortable fit</div>
+          <div class="price-row">
+            <div>
+              <div class="price">₹849</div>
+              <div class="small">COD, UPI</div>
+            </div>
+            <div><button class="btn" onclick="openWhatsApp('PSG Home')">Order</button></div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://via.placeholder.com/600x600?text=Brazil" alt="Brazil Jersey" />
+          <div class="p-title">Brazil Home</div>
+          <div class="p-sub">AAA Thailand | Breathable mesh panels</div>
+          <div class="price-row">
+            <div>
+              <div class="price">₹849</div>
+              <div class="small">COD, UPI</div>
+            </div>
+            <div><button class="btn" onclick="openWhatsApp('Brazil Home')">Order</button></div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://via.placeholder.com/600x600?text=Argentina" alt="Argentina Jersey" />
+          <div class="p-title">Argentina Home</div>
+          <div class="p-sub">AAA Thailand | Sublimation stripes</div>
+          <div class="price-row">
+            <div>
+              <div class="price">₹849</div>
+              <div class="small">COD, UPI</div>
+            </div>
+            <div><button class="btn" onclick="openWhatsApp('Argentina Home')">Order</button></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="size" style="margin-top:30px">
+      <div class="card">
+        <h3 style="margin:0">Size Guide</h3>
+        <div style="margin-top:10px;color:var(--muted)">Use this quick guide to choose correct fit. If unsure, message us on WhatsApp with your chest measurement (in cm).</div>
+        <div class="size-guide">
+          <span>S — 34-36" (88-92 cm)</span>
+          <span>M — 38-40" (96-102 cm)</span>
+          <span>L — 41-43" (104-110 cm)</span>
+          <span>XL — 44-46" (112-118 cm)</span>
+          <span>XXL — 48"+ (120 cm+)</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top:22px">
+      <div class="card">
+        <h3 style="margin:0">About Balluxe</h3>
+        <p style="color:var(--muted)">Balluxe sources premium AAA Thailand jerseys hand-picked and quality-checked in Kolkata. We focus on durable sublimation prints, embroidered crests, and authentic athletic fit — all at affordable prices starting ₹849. Bulk and team orders available.</p>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:22px">
+      <div class="card">
+        <h3 style="margin:0">Contact & Order</h3>
+        <p class="small" style="margin-top:8px">Order via WhatsApp for fastest response. Local Kolkata buyers: same-day delivery possible. Pan-India shipping available.</p>
+        <div style="display:flex;gap:12px;align-items:center;margin-top:12px;flex-wrap:wrap">
+          <button class="btn" onclick="openWhatsApp()">Order on WhatsApp</button>
+          <a class="secondary" href="mailto:hello@balluxe.com">hello@balluxe.com</a>
+          <div style="margin-left:auto;color:var(--muted);">Follow us on Instagram: <strong>@balluxe</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © Balluxe — Premium Thailand AAA Jerseys. Made with care in Kolkata. • Terms & Returns apply.
+    </footer>
+  </div>
+
+  <script>
+    // Replace the phone number below with your WhatsApp number in international format (no + sign). Example: 919876543210
+    const WA_NUMBER = '919876543210';
+
+    function openWhatsApp(product) {
+      const base = 'https://wa.me/' + WA_NUMBER;
+      const message = product ? `Hi Balluxe! I want to order: ${product}. Size: . Please confirm availability and delivery.` : `Hi Balluxe! I'm interested in your jerseys. Please share available kits and sizes.`;
+      const url = base + '?text=' + encodeURIComponent(message);
+      window.open(url, '_blank');
+    }
+  </script>
+
+  <!--
+    HOW TO USE:
+    1) Replace placeholder images with actual product images (800x800 recommended).
+    2) Update WA_NUMBER with your WhatsApp number in international format.
+    3) Edit prices, product titles, and descriptions.
+    4) Host this file on Netlify/Render/GitHub Pages or upload to Wix "Embed" if you want free hosting.
+
+    QUICK HOSTING OPTIONS (free):
+    - GitHub Pages: create a repo and upload this file as index.html
+    - Netlify Drop: drag & drop this file in Netlify (instant site)
+
+    WANT CHANGES? Tell me which colors, content, or features you want (cart, payment integration), and I will update the file.
+  -->
+</body>
+</html>
